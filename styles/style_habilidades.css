@@ -1,0 +1,60 @@
+#conhecimentos-setor {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#conhecimentos-setor > * {
+    margin: 10px;
+}
+
+#conhecimentos-setor article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    height: 100px;
+    width: 800px;
+}
+
+#conhecimentos-setor article > * {
+    margin: 5px;
+}
+
+#ferramentas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+
+#ferramentas h2 {
+    text-align: center;
+    width: 100%;
+}
+
+#ferramentas article{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+    height: 150px;
+}
+
+#ferramentas article > * {
+    margin: 5px;
+}
+
+#ferramentas article ul {
+    padding-left: 20px;
+}
+
+#ferramentas article ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
