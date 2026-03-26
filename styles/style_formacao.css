@@ -1,0 +1,67 @@
+#formacao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#formacao h2 {
+    font-size: 1.8em;
+    margin: 20px;
+}
+
+#formacao article {
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+#formacao article h3 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.topo {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.informacoes p {
+    margin: 6px 0;
+}
+
+.logo-cefet {
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    height: 110px;
+    width: 110px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao p {
+    margin: 6px 0;
+}
+
+#paragrafo-descricao {
+    align-items: center;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    line-height: 1.6;
+    padding: 15px;
+    text-align: justify;
+}

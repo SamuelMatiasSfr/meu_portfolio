@@ -2,39 +2,47 @@ header {
     align-items: center;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: center;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 15px 40px;
 }
 
-header > * {
-    margin: 10px;
+.logo-nome {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 #icone {
     font-size: 40px;
 }
 
-header h3 a {
-    color: black;
-    text-decoration: none;
-    transition: font-size 0.2s;
+.logo-nome h3 {
+    font-size: 1.4em;
 }
 
-header h3 a:hover {
+.logo-nome h3 a {
+    border-radius: 10px;
+    color: black;
+    padding: 6px;
+    text-decoration: none;
+    transition: font-size 0.3s;
+}
+
+.logo-nome h3 a:hover {
     font-size: 1.08em;
+    background-color: #f5f7fa;
 }
 
 nav a {
-    font-size: 1.05em;
-    border-radius: 3px;
+    border-radius: 10px;
     color: black;
-    margin: 0 5px;
-    padding: 5px;
+    margin-left: 25px;
+    padding: 6px;
     text-decoration: none;
-    transition: all 0.2s;
+    transition: all 0.3s;
 }
 
 nav a:hover {
     font-size: 1.08em;
-    background-color: rgb(243, 242, 242);
+    background-color: #f5f7fa;
 }
