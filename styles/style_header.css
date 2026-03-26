@@ -11,9 +11,7 @@ header > * {
 }
 
 #icone {
-    height: 40px;
-    width: 40px;
-    transition: transform 0.2s;
+    font-size: 40px;
 }
 
 header h3 a {

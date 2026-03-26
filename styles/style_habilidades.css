@@ -43,18 +43,14 @@
     border-radius: 10px;
     padding: 5px;
     width: 250px;
-    height: 150px;
+    height: 160px;
 }
 
 #ferramentas article > * {
     margin: 5px;
 }
 
-#ferramentas article ul {
-    padding-left: 20px;
-}
-
-#ferramentas article ul li {
-    font-size: 18px;
-    margin-bottom: 5px;
+#ferramentas article p {
+    font-size: 15px;
+    font-weight: bold;
 }
