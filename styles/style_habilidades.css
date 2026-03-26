@@ -51,6 +51,9 @@
 }
 
 #ferramentas article p {
+    align-items: center;
+    display: flex;
     font-size: 15px;
     font-weight: bold;
+    gap: 8px;
 }
